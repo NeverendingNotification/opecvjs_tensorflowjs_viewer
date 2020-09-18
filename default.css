@@ -1,0 +1,117 @@
+
+.viewer{
+ width : 800px;
+ height: 300px;
+ background-color: skyblue;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.viewer img{
+    width: 256px;
+    height: 256px;
+    margin: 25 0 25 0px;
+}
+
+canvas{
+    width: 256px;
+    height: 256px;
+    margin: 25 0 25 0px;
+}
+
+#hiddenImage{
+    display:none;
+}
+
+
+.prediction{
+    width: 300px;
+    height: 250px;
+    color: black;
+    border: 2px solid black;   
+    background-color: white;
+}
+.prediction td{
+    border: 1px solid black;
+    height: 30px;
+}
+
+.pred-button{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.score_prob{
+    width: 200px;
+    text-align: center;
+    color: red;
+}
+
+.pred_prob{
+    width: 200px;
+    text-align: center;
+    color: black;
+    background-color: pink;
+}
+
+#control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+    height: 180px;
+    background-color: pink;
+    margin: 25 0 25 0px;
+}
+
+#fileInput{
+    padding: 10 0 0 0;
+    height:50px;
+    font-size: 25px;
+}
+
+#controlValue{
+    margin: 0 0 10 0;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.control-unit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    border: inset 3px grey;
+    padding: 5px;
+}
+
+.color-slider{
+    width: 80px;
+    color: red;
+}
+
+.control-value{
+    width: 80px;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#buttons button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+#explain{
+    margin: 50 0 50 0px;
+}
+
