@@ -26,6 +26,6 @@ This repository is HTML/Javascript application for checking your Deep Learing (D
 
 #### Reference
 [TensorflowJS]: https://www.tensorflow.org/js/guide/conversion
-[Web Server for Chrome] : https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=ja
+[Web Server for Chrome]: https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=ja
 
 
