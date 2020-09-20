@@ -2,7 +2,9 @@
 .viewer{
  width : 800px;
  height: 300px;
- background-color: skyblue;
+ /* background-color: skyblue; */
+ background: linear-gradient(90deg, #6666ee 10%, #85d8d8 90%);
+
  display: flex;
  align-items: center;
  justify-content: space-around;
@@ -23,7 +25,6 @@ canvas{
 #hiddenImage{
     display:none;
 }
-
 
 .prediction{
     width: 300px;
@@ -62,7 +63,7 @@ canvas{
     align-items: center;
     width: 750px;
     height: 180px;
-    background-color: pink;
+    background: linear-gradient(0deg, #ccaaaa 30%, #ff6666 80%);
     margin: 25 0 25 0px;
 }
 

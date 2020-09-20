@@ -2,14 +2,25 @@
 
 
 window.addEventListener('load', () => {
+
+    // disable prediction buttons
+    let buttonElement = document.querySelectorAll(".pred-button");
+    for (const elem of buttonElement){
+        elem.disabled = true;
+    }
+
+
     // loading model
     let model;
     const loadPreModel = async () => {
         model = await tf.loadLayersModel(MODEL_PATH)
+        for (const elem of buttonElement){
+            elem.disabled = false;
+        }
     }
     loadPreModel();
    
-
+    
     // set orignal and edited viewer configureation
     let baseElement = document.querySelectorAll(".pred");
     for (const elem of baseElement){
